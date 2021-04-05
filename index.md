@@ -9,15 +9,15 @@ int main() {
 ## Who am I?
 I am a/an: <br>
 - **UCSD 3rd year Computer Science Student**
-- **Avid [gamer](###-favorite-games) **
-- **[Coding](##-languages) hobbyist**
+- **Avid [gamer](#favorite-games) **
+- **[Coding](#languages) hobbyist**
 
 Welcome to my humble page I am always aspiring to learn more about programming and further my knowledge in my craft. <br>
 Link to short [README](README.md) with 
 A good quote from Bill Gates I always like to think about is: <br>
 > I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.
 
-## Languages
+# Languages
 The language I am most proficient in is C++<br>
 I also know:<br>
 - *Python*
@@ -37,7 +37,7 @@ Here is some of the results from recent matches: https://cslesports.gg/team-deta
 Here is my current setup:<br>
 ![setup](setup.jpg) 
 
-### Favorite Games
+# Favorite Games
 My top 3 games currently are:
 1. CS:GO
 2. Escape from Tarkov
