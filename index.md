@@ -9,8 +9,8 @@ int main() {
 ## Who am I?
 I am a/an: <br>
 - **UCSD 3rd year Computer Science Student**
-- **Avid [gamer](###favorite-games) **
-- **[Coding](##languages) hobbyist**
+- **Avid [gamer](###-favorite-games) **
+- **[Coding](##-languages) hobbyist**
 
 Welcome to my humble page I am always aspiring to learn more about programming and further my knowledge in my craft. <br>
 Link to short [README](README.md) with 
