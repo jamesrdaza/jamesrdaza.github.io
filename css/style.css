@@ -1,0 +1,403 @@
+html, main, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: "Varela Round", serif;
+}
+
+#line {
+    width: 100%;
+    margin: auto;
+    border: 1px solid #7F2A3C;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;  
+    margin: 0;
+    background-color: #7F2A3C;
+}
+
+/* SideNav Styling */
+.nav {
+    margin-left: 15%;
+    margin-right: auto;
+    margin-bottom: 10%;
+    padding-bottom: 0%;
+    position: relative;
+    overflow: hidden;
+    
+    font-family: "Open Sans", serif;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+ 
+
+/* Animation  */
+.nav::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: plum;
+    transform: translate3d(-100%, 0, 0);
+    transition: transform 300ms;
+}
+
+.nav:hover::after{
+    transform: translate3d(0, 0, 0);
+}
+
+.nav:hover {
+    color: plum;
+    transition: 300ms;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Information Sections  */
+.mainArea {
+    margin-left: 250px;
+    height: 100%;  
+    display: flex;
+    flex-direction: column;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Flexbox sections */
+.section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.section p {
+    width: 50%;
+    margin-top: 10%;
+}
+
+.profPic {
+    height: auto;
+    width: 100%;
+    padding-bottom: 10px;
+    margin: auto;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Section with different background */
+.section2 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F8F8;
+    margin-bottom: 0px;
+    padding-bottom: 5%;
+}
+
+/* Library and Logo */
+.padding {
+    margin-left: 250px;
+    position: relative;
+    height: 100%;
+    background-image: url("../images/geisel-library-1-UCSanDiego.jpg");
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Homelogo */
+.homepic {
+    height: 300px;
+    width: 300px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    padding-top: 0;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Section Header */
+h1 {
+    width: 100%;
+    height: 5%;
+    text-decoration: underline;
+    text-decoration-color: #7F2A3C;
+    text-decoration-thickness: 3px;
+}
+
+/* Wrap for picture and gif */
+.wrap {
+    height: auto;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 5%;
+}
+
+#hello {
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+
+/* Content wrapper for sections */
+.content {
+   width : 50%;
+   height: 100%;
+   margin-left: 20%;
+   padding-left: 5%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+ul {
+    width: 50%;
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Sidenav header */
+.name {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin-bottom: 25%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    font-family: "Merriweather", serif;
+    text-align: center;
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+/* Wrapper for projects */
+.project {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 25px;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+
+.project img {
+    transition: transform .2s;
+}
+.project img:hover {
+    transform: scale(1.10);
+}
+
+/* SPA for project screen */
+body.singleProject main .mainArea, body.singleProject main .padding {
+    display: none;
+}
+.bujo {
+    margin-left: 250px;
+}
+body .bujo .top {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+body .bujo .top h1 {
+    height: 48%;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+body .bujo .top img {
+    height: auto;
+    width: auto;
+}
+
+body.def .bujo{
+    display: none;
+}
+
+body.singleProject .sidenav .nav {
+    display: none;
+}
+body.singleProject .bujo {
+    display: block;
+}
+
+.bujo .content .close {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+/* Sidenav Logos */
+#gitLogo {
+    height: auto;
+    width: 15%;
+    padding-right: 10px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#gitLogo:hover {
+    opacity: 1;
+    transition: 300ms;
+}
+
+#linkedLogo {
+    height: 17%;
+    width: 17%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#linkedLogo:hover {
+    opacity: 1;
+    transition: 300ms;
+}
+
+.icons {
+    padding-left: 10%;
+    position: absolute;
+    left: 10px; 
+    bottom: 10px;
+}
+
+/* Skills Logos */
+
+.logoContainer {
+    height: 200px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 3%;
+    gap: 20px;
+    
+}
+
+.logoBox {
+    height: 45%;
+    width: 13%;
+    position: relative;
+    text-align: center;
+}
+
+.logoBox span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.logoBox img{
+    height: auto;
+    width: 65%;
+}
+
+.logoBox img:hover{
+    height: auto;
+    width: 65%;
+    opacity: 1;
+}
+
+.logoBox{
+    opacity: 70%;
+}
+
+.logoBox:hover {
+    opacity: 1;
+    transition: 600ms;
+}
+
+/* Additional Skills*/
+.skillsBox {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skill {
+    width: auto;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid #7F2A3C;
+}
+
+#skill:hover {
+    background-color: #7F2A3C;
+    color:white;
+    transition: 300ms;
+}
+
+/* Bottom Footer */
+.footer {
+    height: auto;
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #7F2A3C;
+}
+
+/* Project Description */
+#pInfo {
+    width: 50%;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+
+/* Removing sidenav if too large*/
+@media only screen and (max-width: 1000px) {
+    .sidenav {
+      display: none;
+    }
+
+    .mainArea {
+        margin-left: 0px;
+    }
+
+    .padding {
+        margin-left: 0px;
+    }
+
+    .bujo {
+        margin-left: 0px;
+    }
+}
