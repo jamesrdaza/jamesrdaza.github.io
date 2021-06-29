@@ -359,6 +359,7 @@ body.singleProject .bujo {
     padding: 2px;
     margin: 10px;
     border: 2px solid #7F2A3C;
+    cursor: default;
 }
 
 #skill:hover {
