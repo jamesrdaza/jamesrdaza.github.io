@@ -330,21 +330,6 @@ body.singleProject .bujo {
     width: 65%;
 }
 
-.logoBox img:hover{
-    height: auto;
-    width: 65%;
-    opacity: 1;
-}
-
-.logoBox{
-    opacity: 70%;
-}
-
-.logoBox:hover {
-    opacity: 1;
-    transition: 600ms;
-}
-
 /* Additional Skills*/
 .skillsBox {
     height: auto;
