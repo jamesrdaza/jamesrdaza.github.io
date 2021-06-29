@@ -3,7 +3,7 @@ var projBtn = document.querySelector("#proj");
 var homeBtn = document.querySelector("#home");
 var aboutBtn = document.querySelector("#about");
 var skillsBtn = document.querySelector("#skills");
-var bujoProj = document.querySelector(".proj1");
+var bujoProj = document.querySelector(".project");
 var closeBtn = document.querySelector(".close");
 
 /* Button Events */

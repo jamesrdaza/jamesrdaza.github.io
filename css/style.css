@@ -192,7 +192,7 @@ ul {
     margin-right: auto;
     padding-top: 20%;
     padding-bottom: 20%;
-    margin-bottom: 25%;
+    margin-bottom: 20%;
     border-bottom: 2px solid rgba(0, 0, 0, 0.2);
     font-family: "Merriweather", serif;
     text-align: center;
@@ -208,12 +208,12 @@ ul {
     padding-top: 25px;
     text-align: center;
     background-color: rgb(240, 240, 240);
+    box-shadow: 5px 5px 5px grey;
+    transition: 250ms;
+    cursor: pointer;
 }
 
-.project img {
-    transition: transform .2s;
-}
-.project img:hover {
+.project:hover {
     transform: scale(1.10);
 }
 
@@ -372,7 +372,7 @@ body.singleProject .bujo {
     height: auto;
     width: 100%;
     padding: 50px 0px;
-    background-color: #7F2A3C;
+    background-color: #8d3145;
 }
 
 /* Project Description */
